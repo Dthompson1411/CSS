@@ -1,0 +1,151 @@
+
+
+
+/*
+COLOR PALETTE
+https://coolors
+#911814 Spartan Crimson
+#D21E1E Maximum red
+#F19143 Tiger's Eye
+#DB8416 Fulvous
+#F7C610 Deep Lemon
+
+Links
+---------------------------
+
+https://ww.poulirish.con/2012/box-sizing-border-box-ftw/
+
+https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-pratcice/
+*/
+
+/* Global styles
+------------------------------------
+*/
+html
+{
+  box-sizing: border-box;
+}
+*, *:before, *:after
+{
+  box-sizing: inherit;
+}
+body
+{
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  /*font-family: Helvetica, Arial, sans-serif;
+  background: #F19143;*/
+}
+img thumbnail
+{
+    width: 300px;
+}
+img medium
+{
+  width: 600px;
+}
+img large, full
+{
+  width: 2048px;
+}
+a
+{
+  color: #ffe66d;
+}
+a:hover
+{
+  text-decoration: none;
+}
+h1
+{
+  font-size: 60px;
+  line-height: 1.3;
+}
+
+h2
+{
+  font-size: 28px;
+}
+h1, h2
+{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  margin: 0;
+}
+.content-wrap
+{
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+/* PROFILE
+------------------------------------
+*/
+header
+{
+  background: #2f3061;
+  color: #f7fff7;
+}
+
+/* Projects
+------------------------------------
+*/
+.projects
+{
+  background: #f7fff7;
+}
+.projects a
+{
+  color: #2f3061;
+}
+.projects .btn
+{
+  color: #f7fff7;
+  background: #2f3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.projects .btn:hover
+{
+  background: rgba(47,48,97, 80%);
+}
+.project-item
+{
+  overflow: hidden;
+/*
+   border-bottom: 1px dashed #343434;
+   padding: 25px 0;
+*/
+}
+.project-item img
+{
+  float: left;
+  margin-right: 20px;
+}
+/* Work Experience
+------------------------------------
+*/
+.work-experience
+{
+  background: #a1c6d7;
+}
+/* Education
+------------------------------------
+*/
+
+/*Contact Info
+------------------------------------
+*/
+
+footer
+{
+  background: #343434;
+  color: #f7fff7;
+}
